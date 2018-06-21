@@ -1,0 +1,75 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                   Id="374dd6d3-e709-4faa-8466-880deac2253b">
+    <Page.Content>
+        <Content Width="412" Height="690" Id="1cd6238e-b567-45f2-9fd0-f68969c6a59a">
+            <Content.Layers>
+                <Layer Id="9559c5d8-eb9d-4a4c-889b-e37438ed92d8" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="3a82d367-5a49-4e81-8bc7-e8eb75ecf0a5" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="412,690" Id="d05dd3ba-65f7-407d-9072-0c8dc47e4281" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="9a209b8a-f364-4ceb-8397-a1408a2aa5b8" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="GenericPhone" Orientation="Portrait" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="10/21/2017 21:41:55" Id="ba2b4421-f4e1-4da1-8637-a4951fb680c6">
+            <Scene.KeyFrames>
+                <KeyFrame Id="a730bf81-01eb-4209-aa2d-f9376d0160b2">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Before="dc3c3a97-bb16-4d6e-8281-2ba8f6f2df31" Target="9559c5d8-eb9d-4a4c-889b-e37438ed92d8">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="abf75b39-411c-41c6-beee-3e29d0548cb6" Panel.Bounds="98,474,0*,0*">
+                                    <Group.Children>
+                                        <TextBox Id="092a887e-6cd6-4f85-a117-f32f2fb447f1" Panel.Bounds="68,0,120{5,2147483647},5*{5,2147483647}" />
+                                        <Label RichText="PUNetID" Foreground="#FFE2E2E2" Id="dc3c3a97-bb16-4d6e-8281-2ba8f6f2df31" Panel.Bounds="0,3,5*{5,2147483647},5*{5,2147483647}" />
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9559c5d8-eb9d-4a4c-889b-e37438ed92d8">
+                            <Add.Item>
+                                <PasswordBox Id="3326218c-fb1c-452c-81cf-767bd78b6f76" Panel.Bounds="166,516,120{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9559c5d8-eb9d-4a4c-889b-e37438ed92d8">
+                            <Add.Item>
+                                <Label RichText="&lt;Run Foreground=&quot;#FFFFFFFF&quot; &gt;Password&lt;/Run&gt;" Id="ee4d0dfa-88eb-463c-9869-ba981c841a3b" Panel.Bounds="87,519,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9559c5d8-eb9d-4a4c-889b-e37438ed92d8">
+                            <Add.Item>
+                                <Button Text="Login" Background="#FFAA98C1" CornerRadius="9" FontFamily="Open Sans" Id="8877ad7b-1c8d-4201-b7d9-529569696b37" Panel.Bounds="166,555,80{5,2147483647},35{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/Home.screen" Created="10/21/2017 22:09:11" Id="babf2a9f-5011-4365-ae8a-c2a79c6f8d96">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9559c5d8-eb9d-4a4c-889b-e37438ed92d8">
+                            <Add.Item>
+                                <Title RichText="Cam(a)pus" Foreground="#FFE2E2E2" FontSize="72" FontFamily="Open Sans" Id="9368ef08-ca99-4f10-9c0c-4b96cbcc1144" Panel.Bounds="27,6,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9559c5d8-eb9d-4a4c-889b-e37438ed92d8">
+                            <Add.Item>
+                                <Image SourcePath="assets/Pacific_logo222(1).png" Id="3bd38f0e-afb6-4543-a769-931d2f74434f" Panel.Bounds="47,92,350{5,2147483647},391{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Set Property="Content.Background" Value="#FF153153" Target="1cd6238e-b567-45f2-9fd0-f68969c6a59a" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

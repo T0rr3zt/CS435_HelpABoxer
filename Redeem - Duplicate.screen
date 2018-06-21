@@ -1,0 +1,279 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                   Id="a9cc4c99-05e1-4b63-b3d2-42b936af77ce">
+    <Page.Content>
+        <Content Width="412" Height="690" Id="0ce4f487-8555-4b74-8412-b86e6cc79c3f">
+            <Content.Layers>
+                <Layer Id="35ea3b15-0d48-480d-8b95-d34ffb0516e1" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="aef3f42d-131b-42c3-8de3-c75ae40ec885" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="412,690" Id="a3d85395-7dcc-4a0e-a332-44762fbaa758" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="bde052e1-431b-415f-91b7-a54ea3b84833" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="GenericPhone" Orientation="Portrait" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="10/25/2017 10:03:08" Id="372f9fc1-e963-478d-9582-d6ffbd27198d">
+            <Scene.KeyFrames>
+                <KeyFrame Id="1043c1ea-ab50-42bb-b314-037b39adcb89">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="35ea3b15-0d48-480d-8b95-d34ffb0516e1">
+                            <Add.Item>
+                                <ScreenPartInstance TemplateReference="/Screenparts/Profile Button.screenpart" Id="96dc7835-08f1-49b8-a4e3-bc7a61897abb" Panel.Bounds="350,10,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="35ea3b15-0d48-480d-8b95-d34ffb0516e1">
+                            <Add.Item>
+                                <Title RichText="&lt;Run Foreground=&quot;#FFE2E2E2&quot; &gt;Rewards&lt;/Run&gt;" FontFamily="Open Sans" Id="4291462a-e31b-4523-afb3-f03d27595bea" Panel.Bounds="135,15,144{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="35ea3b15-0d48-480d-8b95-d34ffb0516e1">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="bedf554b-8389-4d75-acb4-434b935da761" Panel.Bounds="152,273,0*,0*">
+                                    <Group.Children>
+                                        <TextBox Text="Points:" FontSize="18" FontFamily="Open Sans" Id="8ca727fa-755b-40d5-a950-63cf91b7cb70" Panel.Bounds="0,0,107{5,2147483647},5*{5,2147483647}" />
+                                        <Label RichText="200" FontSize="18" FontFamily="Open Sans" Id="813be7c6-005f-4cf9-90e2-6d8d21636cd0" Panel.Bounds="67,3,5*{5,2147483647},5*{5,2147483647}" />
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="35ea3b15-0d48-480d-8b95-d34ffb0516e1">
+                            <Add.Item>
+                                <ScreenPartInstance TemplateReference="/Screenparts/Back Button.screenpart" Id="7f6b4900-4154-48a6-9091-5b0329077664" Panel.Bounds="20,20,0*,0*">
+                                    <ScreenPartInstance.Click>
+                                        <CommandNavigate Screen="/Home.screen" Created="11/29/2017 21:29:39" Id="1597abd3-d0d2-42f9-9262-a29387b5366b">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </ScreenPartInstance.Click>
+                                </ScreenPartInstance>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="35ea3b15-0d48-480d-8b95-d34ffb0516e1">
+                            <Add.Item>
+                                <Image SourcePath="assets/Pacific_logo222(3).png" Id="d9b31a3c-4508-41ad-95b2-ea275178e6f0" Panel.Bounds="102,42,214{5,2147483647},230{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="35ea3b15-0d48-480d-8b95-d34ffb0516e1">
+                            <Add.Item>
+                                <Button Text="Starbucks" CornerRadius="9" FontSize="18" FontFamily="Open Sans" Id="00da776b-9327-4a42-ae4a-40e95a05a2ed" Panel.Bounds="115,331,189{5,2147483647},47{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandSwitchTo SceneId="8c771ace-0334-4d9c-aaa8-43affa51cd4c" Created="11/29/2017 21:18:47" Id="845e7527-7829-4211-b99e-095a8b0aaa91" />
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="35ea3b15-0d48-480d-8b95-d34ffb0516e1">
+                            <Add.Item>
+                                <Button Text="P.O.D" CornerRadius="9" FontSize="18" FontFamily="Open Sans" Id="9343b976-4567-42d6-858d-f964f3ad4771" Panel.Bounds="115,401,189{5,2147483647},47{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandSwitchTo SceneId="8c771ace-0334-4d9c-aaa8-43affa51cd4c" Created="11/29/2017 21:28:28" Id="266814df-415f-4e22-8cd5-d4b4dcb08c68" />
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="35ea3b15-0d48-480d-8b95-d34ffb0516e1">
+                            <Add.Item>
+                                <Button Text="DutchBros" CornerRadius="9" FontSize="18" FontFamily="Open Sans" Id="74164842-6e19-4961-ada1-e3ab49ca1387" Panel.Bounds="115,471,189{5,2147483647},47{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandSwitchTo SceneId="8c771ace-0334-4d9c-aaa8-43affa51cd4c" Created="11/29/2017 21:28:34" Id="5f6ba15e-fdf0-4534-89e7-9fdd414894ec" />
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="35ea3b15-0d48-480d-8b95-d34ffb0516e1">
+                            <Add.Item>
+                                <Button Text="School Events" CornerRadius="9" FontSize="18" FontFamily="Open Sans" Id="8a4d844a-7447-4eb4-b905-1ad9c54ba86b" Panel.Bounds="115,541,189{5,2147483647},47{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandSwitchTo SceneId="9502e850-acbf-46b7-9c45-f3b2b945ab3d" Created="11/29/2017 21:25:58" Id="caf35e1e-8c61-4f64-a3fc-7de244786f60" />
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                        <Set Property="Content.Background" Value="#FF153153" Target="0ce4f487-8555-4b74-8412-b86e6cc79c3f" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped Get Rewards!" StateGroup="8c771ace-0334-4d9c-aaa8-43affa51cd4c" ParentScene="8c771ace-0334-4d9c-aaa8-43affa51cd4c" Created="11/03/2017 06:15:48" Id="d85e12c8-6e6e-40f3-9169-fd512f3bb971">
+            <Scene.KeyFrames>
+                <KeyFrame Id="e9f0607e-0bda-4755-a751-6dabcb03963c">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="35ea3b15-0d48-480d-8b95-d34ffb0516e1">
+                            <Add.Item>
+                                <ScreenPartInstance TemplateReference="/Screenparts/Reward_Popup.screenpart" Id="c4307e47-9426-47ba-ac05-21a6b6f65d02" Panel.Bounds="22,124,5*{5,2147483647},5*{5,2147483647}">
+                                    <ScreenPartInstance.Customizations>
+                                        <Add Property="Control.Click" Target="63a3c749-e74d-4785-8722-1cfdfe7dcbe9.21381f59-dfa5-4979-92e1-f31548d08747">
+                                            <Add.Item>
+                                                <CommandSwitchTo SceneId="372f9fc1-e963-478d-9582-d6ffbd27198d" Created="11/03/2017 06:16:36" Id="3aeb2616-ad59-42a5-8215-d13c89b3f504" />
+                                            </Add.Item>
+                                        </Add>
+                                        <Set IsUnset="True" Property="Control.Opacity" Value="1" Target="63a3c749-e74d-4785-8722-1cfdfe7dcbe9" />
+                                        <Set IsUnset="True" Property="Control.Opacity" Value="1" Target="2d112bd6-a714-447b-b61f-6e9b4cd9fb4d" />
+                                        <Set IsUnset="True" Property="Control.Opacity" Value="1" Target="de935811-2767-4a91-93a0-0e26b6e13802" />
+                                        <Set IsUnset="True" Property="Control.Opacity" Value="1" Target="58206a7e-4c59-404f-aa6a-3f3e9aedd9a1" />
+                                        <Set Property="Label.RichText" Value="&lt;Run FontSize=&quot;18&quot; &gt;You redeemed 200 points for $5.&#xD;&#xA;&lt;/Run&gt;&lt;Run FontSize=&quot;16&quot; &gt;Present this code to the cashier to redeem.&lt;/Run&gt;" Target="2d112bd6-a714-447b-b61f-6e9b4cd9fb4d" />
+                                        <Move To="20,25" Target="2d112bd6-a714-447b-b61f-6e9b4cd9fb4d" />
+                                        <Set Property="Panel.Bounds" Value="47,17,275{5,2147483647},74*{5,2147483647}" Target="2d112bd6-a714-447b-b61f-6e9b4cd9fb4d" />
+                                        <Resize To="340,74" Target="2d112bd6-a714-447b-b61f-6e9b4cd9fb4d" />
+                                    </ScreenPartInstance.Customizations>
+                                </ScreenPartInstance>
+                            </Add.Item>
+                        </Add>
+                        <Remove Target="c5aff75c-39c2-4678-bab0-daf8796fc0db" />
+                        <Remove Target="a56cbc9e-26b9-4fe3-8e35-07c18956762e" />
+                        <Remove Target="d116de54-4bf5-4158-a0ea-08b0aaa132b7" />
+                        <Remove Target="e029b36a-1546-42a2-9388-15e7b07fdd00" />
+                        <Remove Target="96cef965-adc8-44d2-b914-efcb44b9b0d5" />
+                        <Remove Target="b9de0cee-e1ed-40f0-96c8-f2e3f78ca797" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped School Events" StateGroup="372f9fc1-e963-478d-9582-d6ffbd27198d" ParentScene="372f9fc1-e963-478d-9582-d6ffbd27198d" Created="11/03/2017 07:16:12" Id="9502e850-acbf-46b7-9c45-f3b2b945ab3d">
+            <Scene.KeyFrames>
+                <KeyFrame Id="769a62c8-c759-438d-8e6a-f78977a43bc8">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="35ea3b15-0d48-480d-8b95-d34ffb0516e1">
+                            <Add.Item>
+                                <ScreenPartInstance TemplateReference="/Screenparts/Popup.screenpart" Id="4ae3ed1a-8ff2-402a-9c88-07e53cac373e" Panel.Bounds="20,124,5*{5,2147483647},5*{5,2147483647}">
+                                    <ScreenPartInstance.Customizations>
+                                        <Add Property="Control.Click" Target="21381f59-dfa5-4979-92e1-f31548d08747">
+                                            <Add.Item>
+                                                <CommandSwitchTo SceneId="372f9fc1-e963-478d-9582-d6ffbd27198d" Created="11/03/2017 07:16:35" Id="5acbe1b8-257e-4d1a-a562-d3a0ecda0991" />
+                                            </Add.Item>
+                                        </Add>
+                                        <Add Property="Panel.Children" Target="d1090e0f-19e6-496b-a775-a23a416cc183">
+                                            <Add.Item>
+                                                <Button Text="Accept" CornerRadius="9" FontSize="18" FontFamily="Open Sans" Id="64365eee-9068-4f72-a209-1b4fcd671b37" Panel.Bounds="79,211,220{5,2147483647},50{5,2147483647}">
+                                                    <Button.Click>
+                                                        <CommandSwitchTo SceneId="9dba39da-be66-4445-b5a1-e87051fddb44" Created="11/03/2017 07:19:57" Id="75a36797-5315-4831-83c6-f703f07e9299" />
+                                                    </Button.Click>
+                                                </Button>
+                                            </Add.Item>
+                                        </Add>
+                                    </ScreenPartInstance.Customizations>
+                                </ScreenPartInstance>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="35ea3b15-0d48-480d-8b95-d34ffb0516e1">
+                            <Add.Item>
+                                <Label RichText="Which sporting event would you like&#xD;&#xA;                          to attend?" FontSize="18" FontFamily="Open Sans" Id="abba8a5f-ac28-461e-9d4d-472857d21b02" Panel.Bounds="53,172,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="35ea3b15-0d48-480d-8b95-d34ffb0516e1">
+                            <Add.Item>
+                                <ComboBox IsOpen="True" Hint="Select an event" Id="e98bb1b0-0943-4646-b090-6ba3f81b36a3" Panel.Bounds="131,255,150{5,2147483647},28{5,2147483647}">
+                                    <ComboBox.Items>
+                                        <Item Text="Female Soccer" Id="3b33aaea-48ad-4b4d-8596-c3947d1f1d4f" />
+                                        <Item Text="Male Soccer" Id="88baf1bf-5ffe-47a7-853e-b937d639e638" />
+                                    </ComboBox.Items>
+                                </ComboBox>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped Accept" StateGroup="9502e850-acbf-46b7-9c45-f3b2b945ab3d" ParentScene="9502e850-acbf-46b7-9c45-f3b2b945ab3d" Created="11/03/2017 07:19:57" Id="9dba39da-be66-4445-b5a1-e87051fddb44">
+            <Scene.KeyFrames>
+                <KeyFrame Id="c1d8ecfc-0413-43f5-969c-20a50b780803">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="35ea3b15-0d48-480d-8b95-d34ffb0516e1">
+                            <Add.Item>
+                                <ScreenPartInstance TemplateReference="/Screenparts/Popup.screenpart" Id="f2866a30-90f9-41e8-b3e0-eea8e28bf7a8" Panel.Bounds="20,124,5*{5,2147483647},5*{5,2147483647}">
+                                    <ScreenPartInstance.Customizations>
+                                        <Add Property="Control.Click" Target="21381f59-dfa5-4979-92e1-f31548d08747">
+                                            <Add.Item>
+                                                <CommandSwitchTo SceneId="372f9fc1-e963-478d-9582-d6ffbd27198d" Created="11/03/2017 07:25:50" Id="556cf6f5-458b-452a-841c-2851a14f3a97" />
+                                            </Add.Item>
+                                        </Add>
+                                    </ScreenPartInstance.Customizations>
+                                </ScreenPartInstance>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="35ea3b15-0d48-480d-8b95-d34ffb0516e1">
+                            <Add.Item>
+                                <Label RichText="Present this screen to the ticket checker  &#xD;&#xA;                        at your event." FontSize="18" FontFamily="Open Sans" Id="7eaeaeb8-a405-4005-8de7-c73ca7f193c0" Panel.Bounds="38,172,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="35ea3b15-0d48-480d-8b95-d34ffb0516e1">
+                            <Add.Item>
+                                <Image SourcePath="assets/PastedImage.jpg" Id="969ea7bf-09e0-4bbc-affc-dd43dc1c72e8" Panel.Bounds="132,244,147{5,2147483647},149{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Control.Click" Target="4ae3ed1a-8ff2-402a-9c88-07e53cac373e.21381f59-dfa5-4979-92e1-f31548d08747">
+                            <Add.Item>
+                                <CommandSwitchTo SceneId="9502e850-acbf-46b7-9c45-f3b2b945ab3d" Created="11/03/2017 07:24:30" Id="ae622503-8f4c-4836-b536-cf920133ffe2" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="35ea3b15-0d48-480d-8b95-d34ffb0516e1">
+                            <Add.Item>
+                                <Label RichText="close to save" FontFamily="Open Sans" Id="526db42f-fb35-49ea-9a6f-82ed796825ec" Panel.Bounds="168,406,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Remove Target="4ae3ed1a-8ff2-402a-9c88-07e53cac373e.75a36797-5315-4831-83c6-f703f07e9299" />
+                        <Remove Target="4ae3ed1a-8ff2-402a-9c88-07e53cac373e.5acbe1b8-257e-4d1a-a562-d3a0ecda0991" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped Starbucks" StateGroup="372f9fc1-e963-478d-9582-d6ffbd27198d" ParentScene="372f9fc1-e963-478d-9582-d6ffbd27198d" Created="11/29/2017 21:18:47" Id="8c771ace-0334-4d9c-aaa8-43affa51cd4c">
+            <Scene.KeyFrames>
+                <KeyFrame Id="abf11895-c4fe-492a-a04d-2f1f08eaed82">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="35ea3b15-0d48-480d-8b95-d34ffb0516e1">
+                            <Add.Item>
+                                <ScreenPartInstance TemplateReference="/Screenparts/Popup.screenpart" Id="c5aff75c-39c2-4678-bab0-daf8796fc0db" Panel.Bounds="23,126,5*{5,2147483647},5*{5,2147483647}">
+                                    <ScreenPartInstance.Customizations>
+                                        <Add Property="Control.Click" Target="21381f59-dfa5-4979-92e1-f31548d08747">
+                                            <Add.Item>
+                                                <CommandSwitchTo SceneId="372f9fc1-e963-478d-9582-d6ffbd27198d" Created="11/29/2017 21:23:17" Id="a471f59d-2473-44cc-9a27-3a3472299312" />
+                                            </Add.Item>
+                                        </Add>
+                                    </ScreenPartInstance.Customizations>
+                                </ScreenPartInstance>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="35ea3b15-0d48-480d-8b95-d34ffb0516e1">
+                            <Add.Item>
+                                <Title RichText="How many points would you like to spend?" FontFamily="Open Sans" Id="a56cbc9e-26b9-4fe3-8e35-07c18956762e" Panel.Bounds="54,147,303{5,2147483647},47*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="35ea3b15-0d48-480d-8b95-d34ffb0516e1">
+                            <Add.Item>
+                                <Label RichText="200 points = $5.00" FontSize="21" FontFamily="Open Sans" Id="d116de54-4bf5-4158-a0ea-08b0aaa132b7" Panel.Bounds="116,296,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="35ea3b15-0d48-480d-8b95-d34ffb0516e1">
+                            <Add.Item>
+                                <TextBox FontFamily="Open Sans" Id="e029b36a-1546-42a2-9388-15e7b07fdd00" Panel.Bounds="146,350,120{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="35ea3b15-0d48-480d-8b95-d34ffb0516e1">
+                            <Add.Item>
+                                <Label RichText="points" FontFamily="Open Sans" Id="96cef965-adc8-44d2-b914-efcb44b9b0d5" Panel.Bounds="273,353,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="35ea3b15-0d48-480d-8b95-d34ffb0516e1">
+                            <Add.Item>
+                                <Button Text="Get Rewards!" CornerRadius="7" FontFamily="Open Sans" Id="b9de0cee-e1ed-40f0-96c8-f2e3f78ca797" Panel.Bounds="151,391,110{5,2147483647},35{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandSwitchTo SceneId="d85e12c8-6e6e-40f3-9169-fd512f3bb971" Created="11/29/2017 21:23:42" Id="2e6299a6-2b47-4454-8cc2-317d5039da40" />
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

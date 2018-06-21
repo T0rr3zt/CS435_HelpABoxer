@@ -1,0 +1,68 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                   Id="7616204d-1a8f-4d5f-8f05-5bac69153af2">
+    <Page.Content>
+        <Content Width="412" Height="690" Id="38280147-db29-4c3c-a029-79db47e86da3">
+            <Content.Layers>
+                <Layer Id="161241f7-3da2-44fd-af4e-6de1694033df" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="5b0ab42c-30ea-43eb-8155-b7f751498514" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="412,690" Id="556c8325-c38d-4db7-8f5a-e61c1fa9248b" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="7aa26794-d986-4dbb-af4b-6770691d8fa1" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="GenericPhone" Orientation="Portrait" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="11/02/2017 23:17:15" Id="813eed46-7e11-4459-8335-34dcd9f1edaa">
+            <Scene.KeyFrames>
+                <KeyFrame Id="0686cd43-7101-4a4b-a772-865573884cf5">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="161241f7-3da2-44fd-af4e-6de1694033df">
+                            <Add.Item>
+                                <Title RichText="&lt;Run FontWeight=&quot;Bold&quot; &gt;YOUR REQUEST &#xD;&#xA;&lt;/Run&gt;&lt;Run FontWeight=&quot;Bold&quot; &gt;HAS BEEN SENT!&lt;/Run&gt;" Align="Center" Foreground="#FFFFFFFF" FontFamily="Open Sans" Id="cd5f16d1-c478-4ad5-8ee4-5c0ec8a2d8bb" Panel.Bounds="70,87,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="161241f7-3da2-44fd-af4e-6de1694033df">
+                            <Add.Item>
+                                <Label RichText="&lt;Run FontSize=&quot;36&quot; &gt;We'll let you know &#xD;&#xA;&lt;/Run&gt;&lt;Run FontSize=&quot;36&quot; &gt;when someone&#xD;&#xA;&lt;/Run&gt;&lt;Run FontSize=&quot;36&quot; &gt;is on the way! &lt;/Run&gt;" Align="Center" Foreground="#FFFFFFFF" FontFamily="Open Sans" Id="b45e807b-bc09-40df-830b-a2ddbe933919" Panel.Bounds="53,205,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="161241f7-3da2-44fd-af4e-6de1694033df">
+                            <Add.Item>
+                                <Button Text="Cancel Request" Background="#FFC0D5EF" CornerRadius="7" BorderThickness="6" FontSize="24" FontFamily="Open Sans" Id="8beac20a-a9d1-472f-92cf-a5ffd9567c6d" Panel.Bounds="93,578,226{5,2147483647},59{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/Request cancel.screen" Created="11/03/2017 03:49:16" Id="bde8171e-8313-46e5-ba71-4c5c3c188910">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="8beac20a-a9d1-472f-92cf-a5ffd9567c6d" Target="161241f7-3da2-44fd-af4e-6de1694033df">
+                            <Add.Item>
+                                <Button Text="Button" FontFamily="Open Sans" Opacity="0" Id="b09c6d74-df7c-4848-b6d7-16e291c148df" Panel.Bounds="0,0,412{5,2147483647},690{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/Help is on the way.screen" Created="11/29/2017 21:42:58" Id="c611448e-efef-47ca-985d-97471d00fba0">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                        <Set Property="Content.Background" Value="#FF153153" Target="38280147-db29-4c3c-a029-79db47e86da3" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

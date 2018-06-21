@@ -1,0 +1,87 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                   Id="f3cc7735-e635-4a0a-8dea-84a0547ff542">
+    <Page.Content>
+        <Content Width="412" Height="690" Id="26194dd0-14fa-4d4e-8018-135a30621303">
+            <Content.Layers>
+                <Layer Id="5461ff1e-43e6-4230-8af1-9ad116c1f009" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="456bcc6a-0d77-4d65-a414-dc97a1ae7b98" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="412,690" Id="84bb6a44-aa1c-4645-b0b0-71b77cd8a335" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="da4fcaf0-7a39-413a-a6dc-5ee755ba6223" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="GenericPhone" Orientation="Portrait" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="11/02/2017 22:10:12" Id="e72940e6-e333-4886-9ed0-d785273ddebd">
+            <Scene.KeyFrames>
+                <KeyFrame Id="962f3ec1-f9d1-4267-8a38-f96e4b6384ef">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="5461ff1e-43e6-4230-8af1-9ad116c1f009">
+                            <Add.Item>
+                                <Title RichText="&lt;Run FontSize=&quot;60&quot; &gt;REQUEST&#xD;&#xA;&lt;/Run&gt;&lt;Run FontSize=&quot;60&quot; &gt;CANCELED&lt;/Run&gt;" Align="Center" Foreground="#FFFFFFFF" FontFamily="Open Sans" Id="b336d890-2d76-4f84-ae0d-e5f61bcb5385" Panel.Bounds="55,55,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5461ff1e-43e6-4230-8af1-9ad116c1f009">
+                            <Add.Item>
+                                <Label RichText="&lt;Run FontSize=&quot;21&quot; &gt;We'll let any helpers on their way know that you've got this!&lt;/Run&gt;" Align="Center" Foreground="#FFFFFFFF" FontFamily="Open Sans" Id="500cc724-fafb-41f0-ba0e-17ef6279b284" Panel.Bounds="90,268,231{5,2147483647},29*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5461ff1e-43e6-4230-8af1-9ad116c1f009">
+                            <Add.Item>
+                                <Button Text="HOME" Background="#FFC0D5EF" CornerRadius="13" BorderThickness="7" Foreground="#FF000000" FontSize="36" FontFamily="Open Sans" FontStyle="Normal" Id="e6189756-36ae-4dbf-97eb-d742b2436d40" Panel.Bounds="97,477,217{5,2147483647},84{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/Home.screen" Created="11/02/2017 22:13:55" Id="47be5b42-1c0c-46ae-acfb-e838ef1d56d4">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                    <Button.DoubleClick>
+                                        <CommandNavigate Screen="/Home.screen" Created="11/02/2017 23:32:01" Id="9924531f-3cd1-4b43-a0bb-a545be1ffcd8">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.DoubleClick>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="5461ff1e-43e6-4230-8af1-9ad116c1f009">
+                            <Add.Item>
+                                <ScreenPartInstance TemplateReference="/Screenparts/Back button.screenpart" Id="cdae11fb-7491-4a4a-9bc7-418a720ad540" Panel.Bounds="15,21,5*{5,2147483647},5*{5,2147483647}">
+                                    <ScreenPartInstance.Customizations>
+                                        <Add Property="Control.Click" Target="6cadbdb1-318d-44e9-9497-3b1ca1fb5547">
+                                            <Add.Item>
+                                                <CommandNavigate Screen="/Home.screen" Created="11/03/2017 03:52:18" Id="fd546474-4116-4f97-9cbc-7a3d5bb5dcf7">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Duration="0" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </Add.Item>
+                                        </Add>
+                                        <Remove Target="843073d9-2ef3-494c-8884-689a95578c07" />
+                                    </ScreenPartInstance.Customizations>
+                                    <ScreenPartInstance.Click>
+                                        <CommandNavigate Screen="/Home.screen" Created="11/03/2017 03:51:24" Id="e15980b4-b61d-46c9-b3a6-fa574ef228aa">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </ScreenPartInstance.Click>
+                                </ScreenPartInstance>
+                            </Add.Item>
+                        </Add>
+                        <Set Property="Content.Background" Value="#FF153153" Target="26194dd0-14fa-4d4e-8018-135a30621303" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

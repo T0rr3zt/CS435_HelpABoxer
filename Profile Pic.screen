@@ -1,0 +1,51 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                   Id="67d6cafa-eb9c-4891-be84-07474a7bd3b4">
+    <Page.Content>
+        <Content Width="412" Height="690" Id="9b068555-1ccf-476b-90c1-04f53da57071">
+            <Content.Layers>
+                <Layer Id="942dca8f-74e5-4997-b9a9-1f13947f620b" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="92bda9ec-4046-48d0-848f-57eba9a9b3d7" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="412,690" Id="570d48f5-3872-41b3-a2ad-a0b96047d885" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="847c85e6-c40f-4f91-ae31-46e2d66039dc" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="GenericPhone" Orientation="Portrait" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="11/02/2017 20:19:14" Id="b3edfd2b-3152-410b-8574-8764d7bd7d20">
+            <Scene.KeyFrames>
+                <KeyFrame Id="03f454f6-1315-4638-b1c4-6679322fe9c5">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="942dca8f-74e5-4997-b9a9-1f13947f620b">
+                            <Add.Item>
+                                <Title FontFamily="Open Sans" Id="f9aeb289-9013-40ff-9d1a-6a7cfbef00f6" Panel.Bounds="154,10,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="942dca8f-74e5-4997-b9a9-1f13947f620b">
+                            <Add.Item>
+                                <ScreenPartInstance TemplateReference="/Screenparts/Back Button.screenpart" Id="316371d9-b883-46bf-b528-6d7d03946e84" Panel.Bounds="20,20,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="942dca8f-74e5-4997-b9a9-1f13947f620b">
+                            <Add.Item>
+                                <Image SourcePath="assets/itsYou.png" Id="55376da6-058a-4c71-9e7d-9c1493d36f06" Panel.Bounds="0,208,412{5,2147483647},274{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="942dca8f-74e5-4997-b9a9-1f13947f620b">
+                            <Add.Item>
+                                <Label RichText="Changed 3 years ago" FontFamily="Open Sans" Id="c2a3c55f-5488-49e3-bc97-577bdb7a64f4" Panel.Bounds="7,652,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

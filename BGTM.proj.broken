@@ -1,0 +1,15 @@
+﻿<?Infragistics.Models format="xaml" version="4" appVersion="9.2.1000.51"?>
+<Project xmlns="http://prototypes.infragistics.com/"
+<<<<<<< HEAD
+                                                                                     Id="MCFBJJJAJKWU" StartScreens="/Login Screen.screen" IndigoVersion="9" RecentColors="#FF000000,#FFFFFFFF,#FFE2E2E2,#FFAA98C1" LastUsedFonts="Open Sans">
+=======
+                                                                                  Id="MCFBJJJAJKWU" StartScreens="/Login Screen.screen" IndigoVersion="9" RecentColors="#FFC6C6C6,#FF000000,#FF1C1C1C,#FFE2E2E2,#FFFFFFFF,#FFAA98C1" LastUsedFonts="Open Sans">
+>>>>>>> 7385b1d166cf083d6c96e5760d0f7c53bb584100
+    <Project.Defaults>
+        <ProjectDefaults Viewport="412,690">
+            <ProjectDefaults.Device>
+                <DeviceInfo Id="GenericPhone" Orientation="Portrait" />
+            </ProjectDefaults.Device>
+        </ProjectDefaults>
+    </Project.Defaults>
+</Project>

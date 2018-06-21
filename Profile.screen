@@ -1,0 +1,116 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                   Id="11db3b84-10c0-4ad2-b1c8-1c8943ce93e5">
+    <Page.Content>
+        <Content Width="412" Height="690" Id="70753b61-0072-4b42-b35a-a5322db212a1">
+            <Content.Layers>
+                <Layer Id="aecde348-985c-40ec-a42e-fa3abb764353" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="e09e4c2f-2788-4ded-ba0a-1c6c084efa29" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="412,690" Id="a78efeb5-6dfc-4f4f-a085-849cffb6993e" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="81620a9e-c369-4917-8be7-2750976b7958" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="GenericPhone" Orientation="Portrait" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="10/21/2017 22:11:13" Id="045268d0-9c58-4a07-ae6e-0660eb36867a">
+            <Scene.KeyFrames>
+                <KeyFrame Id="d2241b4b-7f00-4478-acdd-460eed2940e3">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="aecde348-985c-40ec-a42e-fa3abb764353">
+                            <Add.Item>
+                                <Title RichText="&lt;Run Foreground=&quot;#FFE2E2E2&quot; &gt;Profile&lt;/Run&gt;" FontFamily="Open Sans" Id="67c18abb-200a-477d-9fd3-4c61ca39096e" Panel.Bounds="154,10,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="aecde348-985c-40ec-a42e-fa3abb764353">
+                            <Add.Item>
+                                <Button Text="Reward Info" CornerRadius="9" FontSize="25" FontFamily="Open Sans" Id="8276d10f-1e37-4974-888c-c7acddde852b" Panel.Bounds="80,371,252{5,2147483647},72{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandSwitchTo SceneId="06e94432-362a-40b8-a327-9c07a6f0d70a" Created="10/21/2017 22:12:51" Id="29402bad-d6bc-4af2-baed-7b9ac86bc196" />
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="aecde348-985c-40ec-a42e-fa3abb764353">
+                            <Add.Item>
+                                <ScreenPartInstance TemplateReference="/Screenparts/Settings Button.screenpart" Id="f04bbd00-8322-4880-93d7-91b894eac2c2" Panel.Bounds="350,15,0*,0*" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="aecde348-985c-40ec-a42e-fa3abb764353">
+                            <Add.Item>
+                                <ScreenPartInstance TemplateReference="/Screenparts/Back Button.screenpart" Id="1d9d347d-e48a-44d5-a26c-1a62b752ba00" Panel.Bounds="20,20,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="aecde348-985c-40ec-a42e-fa3abb764353">
+                            <Add.Item>
+                                <Button Text="Feedback" CornerRadius="9" FontSize="25" FontFamily="Open Sans" Id="34bf39d8-5a7f-43c1-893b-26fb89df92db" Name="Feedback" Panel.Bounds="80,267,252{5,2147483647},72{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/Feedback.screen" Created="11/02/2017 20:23:21" Id="d7d892b0-8863-4cae-979b-8238577cae06">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="aecde348-985c-40ec-a42e-fa3abb764353">
+                            <Add.Item>
+                                <Image SourcePath="assets/thomas_cabus1(1).png" Id="dcb02860-c784-4db0-945d-724d475f6b9a" Panel.Bounds="127,77,158{5,2147483647},158{5,2147483647}">
+                                    <Image.Click>
+                                        <CommandNavigate Screen="/Profile Pic.screen" Created="11/27/2017 22:52:59" Id="450122b9-2713-4c18-8b7d-27f59fba9970">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Image.Click>
+                                </Image>
+                            </Add.Item>
+                        </Add>
+                        <Set Property="Content.Background" Value="#FF153153" Target="70753b61-0072-4b42-b35a-a5322db212a1" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped Reward Info" StateGroup="045268d0-9c58-4a07-ae6e-0660eb36867a" ParentScene="045268d0-9c58-4a07-ae6e-0660eb36867a" Created="10/21/2017 22:12:51" Id="06e94432-362a-40b8-a327-9c07a6f0d70a">
+            <Scene.KeyFrames>
+                <KeyFrame Id="462f6bdd-d0ab-4cd8-87bc-897ccfcf1320">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="aecde348-985c-40ec-a42e-fa3abb764353">
+                            <Add.Item>
+                                <ScreenPartInstance TemplateReference="/Screenparts/Popup.screenpart" Id="22e4a08c-eec1-4090-aaa5-e5a289fd099f" Panel.Bounds="22,204,0*,0*">
+                                    <ScreenPartInstance.Customizations>
+                                        <Add Property="Control.Click" Target="21381f59-dfa5-4979-92e1-f31548d08747">
+                                            <Add.Item>
+                                                <CommandSwitchTo SceneId="045268d0-9c58-4a07-ae6e-0660eb36867a" Created="11/01/2017 23:34:58" Id="fa88ab1b-d64b-4837-bda5-f98a85f82b5b" />
+                                            </Add.Item>
+                                        </Add>
+                                        <Add Property="Panel.Children" Target="d1090e0f-19e6-496b-a775-a23a416cc183">
+                                            <Add.Item>
+                                                <Label RichText="1 Person helped = 10 Points&#xD;&#xA;2 People helped in one day = 30 Points&#xD;&#xA;3+ People helped in one day = 50 Points&#xD;&#xA;" Align="Left" FontSize="16" FontFamily="Open Sans" Id="8db76c4e-2b41-4c9a-a9d9-40abc54d1e53" Panel.Bounds="26,80,322{5,2147483647},79{5,2147483647}" />
+                                            </Add.Item>
+                                        </Add>
+                                        <Move To="2,0" Target="61f1157c-2de6-4c4c-8f9e-6543824c29c5" />
+                                        <Resize To="370,210" Target="61f1157c-2de6-4c4c-8f9e-6543824c29c5" />
+                                        <Resize To="370,213" Target="bf4d5062-768d-47d6-b9f6-09108e88c8b2" />
+                                    </ScreenPartInstance.Customizations>
+                                </ScreenPartInstance>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="aecde348-985c-40ec-a42e-fa3abb764353">
+                            <Add.Item>
+                                <Title RichText="&lt;Run FontSize=&quot;21&quot; &gt;Reward Information&lt;/Run&gt;" FontFamily="Open Sans" Id="9257b92d-8e50-4940-82bd-cd9518608312" Panel.Bounds="98,214,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

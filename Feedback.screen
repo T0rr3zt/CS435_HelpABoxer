@@ -1,0 +1,197 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                   Id="c5210e1c-d755-4421-b675-81f5004a7db4">
+    <Page.Content>
+        <Content Width="412" Height="690" Id="5e6de80e-c8be-4e93-bbe0-a21313e732e2">
+            <Content.Layers>
+                <Layer Id="6a2a62db-f22f-4655-b66a-a5be507be5f1" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="5a4b70b0-5da1-4f5a-8bed-149acfce99ec" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="412,690" Id="75a5c324-5e3e-4a56-8ad6-ad636f91431f" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="793f7b99-2fb9-4df0-8600-64bfeaeefc5a" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="GenericPhone" Orientation="Portrait" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="11/02/2017 20:23:21" Id="a298f56f-c74d-40e5-8b41-887cdc4636fa">
+            <Scene.KeyFrames>
+                <KeyFrame Id="c20ac936-9b9f-4eb2-b517-a24a67281a05">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="6a2a62db-f22f-4655-b66a-a5be507be5f1">
+                            <Add.Item>
+                                <Title RichText="Feedback" Foreground="#FFFFFFFF" FontFamily="Open Sans" Id="76da794b-2c1d-4f21-84e7-746b188b588b" Panel.Bounds="130,10,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="6a2a62db-f22f-4655-b66a-a5be507be5f1">
+                            <Add.Item>
+                                <ScreenPartInstance TemplateReference="/Screenparts/Back Button.screenpart" Id="da9a1ff1-2036-47c2-905c-8bbea5e3afbd" Panel.Bounds="20,20,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="6a2a62db-f22f-4655-b66a-a5be507be5f1">
+                            <Add.Item>
+                                <Button Text="Submit" CornerRadius="9" FontSize="25" FontFamily="Open Sans" Id="2951b1d6-bc8d-4c19-8eaf-86a1d33ce792" Panel.Bounds="80,598,252{5,2147483647},72{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandSwitchTo SceneId="13b3acaf-9eb8-4176-89fd-15e22144ec43" Created="11/02/2017 20:36:56" Id="0268fa6e-5ecb-4541-a665-1fd989302f18" />
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="6a2a62db-f22f-4655-b66a-a5be507be5f1">
+                            <Add.Item>
+                                <TextArea FontFamily="Open Sans" Id="04548379-67bf-4302-bbfb-fa558e0538a6" Panel.Bounds="20,279,371{5,2147483647},306{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="6a2a62db-f22f-4655-b66a-a5be507be5f1">
+                            <Add.Item>
+                                <Label RichText="&lt;Run Foreground=&quot;#FFFFFFFF&quot; &gt;How do you like the app?&lt;/Run&gt;" FontFamily="Open Sans" Id="7883bbba-d645-438e-b812-5064fc4085fc" Panel.Bounds="20,111,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="6a2a62db-f22f-4655-b66a-a5be507be5f1">
+                            <Add.Item>
+                                <Icon CatalogId="fa-star-o" Id="00c09b7c-3b99-448c-b258-14391d6c51e6" Panel.Bounds="71,133,50{5,2147483647},50{5,2147483647}">
+                                    <Icon.Click>
+                                        <CommandSwitchTo SceneId="a2286f90-2f9e-4706-b04c-1fc3cf1b61df" Created="11/02/2017 20:32:30" Id="7745887b-dc29-4113-86bd-d9d6294192f2" />
+                                    </Icon.Click>
+                                </Icon>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="6a2a62db-f22f-4655-b66a-a5be507be5f1">
+                            <Add.Item>
+                                <Icon CatalogId="fa-star-o" Id="f4a5bc31-57c8-4968-bea5-21af864c3dc0" Panel.Bounds="126,133,50{5,2147483647},50{5,2147483647}">
+                                    <Icon.Click>
+                                        <CommandSwitchTo SceneId="3d47ad93-7116-445d-86ef-6b665f54e32f" Created="11/02/2017 20:33:10" Id="309cbf51-d3ea-4852-910b-2386fb51d666" />
+                                    </Icon.Click>
+                                </Icon>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="6a2a62db-f22f-4655-b66a-a5be507be5f1">
+                            <Add.Item>
+                                <Icon CatalogId="fa-star-o" Id="6284cc23-bbe0-446f-8bdf-218c90704c8d" Panel.Bounds="181,133,50{5,2147483647},50{5,2147483647}">
+                                    <Icon.Click>
+                                        <CommandSwitchTo SceneId="5df832b0-1148-4bf8-96a4-6ede5681447b" Created="11/02/2017 20:33:49" Id="00a6fa01-a5e2-4062-9e31-70191ccb97a5" />
+                                    </Icon.Click>
+                                </Icon>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="6a2a62db-f22f-4655-b66a-a5be507be5f1">
+                            <Add.Item>
+                                <Icon CatalogId="fa-star-o" Id="2a72e669-3ba1-413f-843f-78bc1aa7b4f4" Panel.Bounds="236,133,50{5,2147483647},50{5,2147483647}">
+                                    <Icon.Click>
+                                        <CommandSwitchTo SceneId="fe80165c-90d2-4462-926c-661c461c575b" Created="11/02/2017 20:34:37" Id="78120d98-fd0e-4bc2-9ee4-9ab3298919ea" />
+                                    </Icon.Click>
+                                </Icon>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="6a2a62db-f22f-4655-b66a-a5be507be5f1">
+                            <Add.Item>
+                                <Icon CatalogId="fa-star-o" Id="c030e9c2-eaa1-4a8c-9b86-28ea0d3cf3a8" Panel.Bounds="291,133,50{5,2147483647},50{5,2147483647}">
+                                    <Icon.Click>
+                                        <CommandSwitchTo SceneId="8d44bd40-e849-4748-b3f3-7ce0dc019b38" Created="11/02/2017 20:35:22" Id="7b94492e-8623-40a3-9ee3-ac567222238b" />
+                                    </Icon.Click>
+                                </Icon>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="6a2a62db-f22f-4655-b66a-a5be507be5f1">
+                            <Add.Item>
+                                <Label RichText="How can we improve your experience?" Foreground="#FFFFFFFF" FontFamily="Open Sans" Id="f7347fc8-0319-4698-b598-ed0bd604932d" Panel.Bounds="20,238,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Set Property="Content.Background" Value="#FF153153" Target="5e6de80e-c8be-4e93-bbe0-a21313e732e2" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped fa-star-o" StateGroup="a298f56f-c74d-40e5-8b41-887cdc4636fa" ParentScene="a298f56f-c74d-40e5-8b41-887cdc4636fa" Created="11/02/2017 20:32:30" Id="a2286f90-2f9e-4706-b04c-1fc3cf1b61df">
+            <Scene.KeyFrames>
+                <KeyFrame Id="23900345-3c74-4f19-9fc5-2a300fec536c">
+                    <KeyFrame.Operations>
+                        <Set Property="Icon.CatalogId" Value="fa-star" Target="00c09b7c-3b99-448c-b258-14391d6c51e6" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped fa-star-o" StateGroup="a298f56f-c74d-40e5-8b41-887cdc4636fa" ParentScene="a298f56f-c74d-40e5-8b41-887cdc4636fa" Created="11/02/2017 20:33:10" Id="3d47ad93-7116-445d-86ef-6b665f54e32f">
+            <Scene.KeyFrames>
+                <KeyFrame Id="4936b164-d5ff-4dbd-a352-0a8f34ca4a77">
+                    <KeyFrame.Operations>
+                        <Set Property="Icon.CatalogId" Value="fa-star" Target="00c09b7c-3b99-448c-b258-14391d6c51e6" />
+                        <Set Property="Icon.CatalogId" Value="fa-star" Target="f4a5bc31-57c8-4968-bea5-21af864c3dc0" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped fa-star-o" StateGroup="a298f56f-c74d-40e5-8b41-887cdc4636fa" ParentScene="a298f56f-c74d-40e5-8b41-887cdc4636fa" Created="11/02/2017 20:33:49" Id="5df832b0-1148-4bf8-96a4-6ede5681447b">
+            <Scene.KeyFrames>
+                <KeyFrame Id="45928570-defd-4ee7-94ce-eb9f3e39ce3d">
+                    <KeyFrame.Operations>
+                        <Set Property="Icon.CatalogId" Value="fa-star" Target="00c09b7c-3b99-448c-b258-14391d6c51e6" />
+                        <Set Property="Icon.CatalogId" Value="fa-star" Target="f4a5bc31-57c8-4968-bea5-21af864c3dc0" />
+                        <Set Property="Icon.CatalogId" Value="fa-star" Target="6284cc23-bbe0-446f-8bdf-218c90704c8d" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped fa-star-o" StateGroup="a298f56f-c74d-40e5-8b41-887cdc4636fa" ParentScene="a298f56f-c74d-40e5-8b41-887cdc4636fa" Created="11/02/2017 20:34:37" Id="fe80165c-90d2-4462-926c-661c461c575b">
+            <Scene.KeyFrames>
+                <KeyFrame Id="7744b9e9-7759-4259-a409-02529891cca2">
+                    <KeyFrame.Operations>
+                        <Set Property="Icon.CatalogId" Value="fa-star" Target="2a72e669-3ba1-413f-843f-78bc1aa7b4f4" />
+                        <Set Property="Icon.CatalogId" Value="fa-star" Target="6284cc23-bbe0-446f-8bdf-218c90704c8d" />
+                        <Set Property="Icon.CatalogId" Value="fa-star" Target="f4a5bc31-57c8-4968-bea5-21af864c3dc0" />
+                        <Set Property="Icon.CatalogId" Value="fa-star" Target="00c09b7c-3b99-448c-b258-14391d6c51e6" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped fa-star-o" StateGroup="a298f56f-c74d-40e5-8b41-887cdc4636fa" ParentScene="a298f56f-c74d-40e5-8b41-887cdc4636fa" Created="11/02/2017 20:35:22" Id="8d44bd40-e849-4748-b3f3-7ce0dc019b38">
+            <Scene.KeyFrames>
+                <KeyFrame Id="1d12800a-5b2e-4062-a0cd-fc02c478568e">
+                    <KeyFrame.Operations>
+                        <Set Property="Icon.CatalogId" Value="fa-star" Target="c030e9c2-eaa1-4a8c-9b86-28ea0d3cf3a8" />
+                        <Set Property="Icon.CatalogId" Value="fa-star" Target="2a72e669-3ba1-413f-843f-78bc1aa7b4f4" />
+                        <Set Property="Icon.CatalogId" Value="fa-star" Target="6284cc23-bbe0-446f-8bdf-218c90704c8d" />
+                        <Set Property="Icon.CatalogId" Value="fa-star" Target="f4a5bc31-57c8-4968-bea5-21af864c3dc0" />
+                        <Set Property="Icon.CatalogId" Value="fa-star" Target="00c09b7c-3b99-448c-b258-14391d6c51e6" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped Submit" StateGroup="a298f56f-c74d-40e5-8b41-887cdc4636fa" ParentScene="a298f56f-c74d-40e5-8b41-887cdc4636fa" Created="11/02/2017 20:36:56" Id="13b3acaf-9eb8-4176-89fd-15e22144ec43">
+            <Scene.KeyFrames>
+                <KeyFrame Id="59497e1a-3799-4b34-8bb1-e694c3e7654a">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="6a2a62db-f22f-4655-b66a-a5be507be5f1">
+                            <Add.Item>
+                                <Button Text="Button" FontFamily="Open Sans" Opacity="0.4" Id="1e41dc97-7ed6-4b2a-a7f5-0b372dab0f19" Panel.Bounds="0,0,412{5,2147483647},690{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="6a2a62db-f22f-4655-b66a-a5be507be5f1">
+                            <Add.Item>
+                                <ScreenPartInstance TemplateReference="/Screenparts/Popup.screenpart" Id="87f113b2-35a6-4501-8367-e846d0d1d841" Panel.Bounds="19,111,5*{5,2147483647},5*{5,2147483647}">
+                                    <ScreenPartInstance.Customizations>
+                                        <Add Property="Control.Click" Target="21381f59-dfa5-4979-92e1-f31548d08747">
+                                            <Add.Item>
+                                                <CommandSwitchTo SceneId="a298f56f-c74d-40e5-8b41-887cdc4636fa" Created="11/02/2017 20:39:40" Id="520a3fc5-911c-4ae4-b7e5-35117b3707c6" />
+                                            </Add.Item>
+                                        </Add>
+                                    </ScreenPartInstance.Customizations>
+                                </ScreenPartInstance>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="6a2a62db-f22f-4655-b66a-a5be507be5f1">
+                            <Add.Item>
+                                <Title RichText="Thank you for &#xD;&#xA;your feedback!" FontFamily="Open Sans" Id="70cb22cf-162d-4dcb-96bf-54e692f8f072" Panel.Bounds="90,228,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

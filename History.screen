@@ -1,0 +1,110 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                   Id="31f22cce-0879-44d1-9b25-e8384457d268">
+    <Page.Content>
+        <Content Width="412" Height="690" Id="29f0e798-e9bb-4e61-ab20-9d712e40be9b">
+            <Content.Layers>
+                <Layer Id="c20d4715-0d98-472a-805e-a4e8f33a409f" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="e819f9e8-d908-4abc-af4e-2ce06df421b5" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="412,690" Id="d5a4172d-aebb-42d8-ab32-cb147adca5fe" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="e0b75591-aa14-4616-8c08-be63d3077122" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="GenericPhone" Orientation="Portrait" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="11/03/2017 06:22:35" Id="7253a474-b221-4c07-b697-3293d0903212">
+            <Scene.KeyFrames>
+                <KeyFrame Id="3f23a018-48b1-4d6c-9ae9-28a59397cf8f">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="c20d4715-0d98-472a-805e-a4e8f33a409f">
+                            <Add.Item>
+                                <ScreenPartInstance TemplateReference="/Screenparts/Profile Button.screenpart" Id="d706037c-2112-47ea-901a-a5cdfe081168" Panel.Bounds="350,10,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="c20d4715-0d98-472a-805e-a4e8f33a409f">
+                            <Add.Item>
+                                <Title RichText="History" FontFamily="Open Sans" Id="c266c55b-eedc-4f98-af19-82ca5b9dd81b" Panel.Bounds="149,15,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="c20d4715-0d98-472a-805e-a4e8f33a409f">
+                            <Add.Item>
+                                <ComboBox Hint="Select Your Store" Id="71124e0a-0cfe-4533-a497-947826981741" Panel.Bounds="96,318,220{5,2147483647},30{5,2147483647}">
+                                    <ComboBox.Items>
+                                        <Item Text="Starbucks ($5)" Id="b5c4e6f9-e305-4b63-bd86-34df321e49c1">
+                                            <Item.Selected>
+                                                <CommandSwitchTo SceneId="792bcd00-b8be-4611-ae65-624246fb9240" AutoRevertEvent="Item.Unselected" Created="11/03/2017 06:26:46" Id="ec5ccc39-dd8b-42af-92f7-35f2fa1ae279" />
+                                            </Item.Selected>
+                                        </Item>
+                                        <Item Text="the P.O.D. ($5)" Id="19c4cd7c-5b7b-41c3-ae62-0fd87918d2f4">
+                                            <Item.Selected>
+                                                <CommandSwitchTo SceneId="54b5ccb9-bb68-4f1b-bb0e-31b3bd80cc77" AutoRevertEvent="Item.Unselected" Created="11/03/2017 06:28:43" Id="c66d28f6-c810-4a7b-b09c-62e974c94edd" />
+                                            </Item.Selected>
+                                        </Item>
+                                    </ComboBox.Items>
+                                </ComboBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="c20d4715-0d98-472a-805e-a4e8f33a409f">
+                            <Add.Item>
+                                <ScreenPartInstance TemplateReference="/Screenparts/Back button.screenpart" Id="9a215278-3377-45a2-a631-976ba0a42c32" Panel.Bounds="20,20,5*{5,2147483647},5*{5,2147483647}">
+                                    <ScreenPartInstance.Click>
+                                        <CommandNavigate Screen="/Home.screen" Created="11/17/2017 05:58:01" Id="2af4d9d8-a21b-49a8-b752-0480f47ecb02">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </ScreenPartInstance.Click>
+                                </ScreenPartInstance>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="c20d4715-0d98-472a-805e-a4e8f33a409f">
+                            <Add.Item>
+                                <Image SourcePath="assets/Pacific_logo222.png" Id="06e9a302-2272-430e-94ef-7ed3693aeb08" Panel.Bounds="83,64,245{5,2147483647},260{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Set Property="Content.Background" Value="#FF153153" Target="29f0e798-e9bb-4e61-ab20-9d712e40be9b" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Selected Starbucks ($5)" ParentScene="7253a474-b221-4c07-b697-3293d0903212" Created="11/03/2017 06:26:46" Id="792bcd00-b8be-4611-ae65-624246fb9240">
+            <Scene.KeyFrames>
+                <KeyFrame Id="4f991ccb-e004-4786-a919-b6f2659afa01">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="c20d4715-0d98-472a-805e-a4e8f33a409f">
+                            <Add.Item>
+                                <Image SourcePath="assets/PastedImage.jpg" Id="79846d15-dfab-4966-9f47-1c1fc3add52c" Panel.Bounds="118,380,175{5,2147483647},0*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Resize To="220,30" Target="71124e0a-0cfe-4533-a497-947826981741" />
+                        <Move To="150,10" Target="c266c55b-eedc-4f98-af19-82ca5b9dd81b" />
+                        <Move To="96,318" Target="71124e0a-0cfe-4533-a497-947826981741" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Selected the P.O.D. ($5)" ParentScene="7253a474-b221-4c07-b697-3293d0903212" Created="11/03/2017 06:28:43" Id="54b5ccb9-bb68-4f1b-bb0e-31b3bd80cc77">
+            <Scene.KeyFrames>
+                <KeyFrame Id="c77a5fbc-682e-4a04-9ab9-68a3d5b7ec5c">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="c20d4715-0d98-472a-805e-a4e8f33a409f">
+                            <Add.Item>
+                                <Image SourcePath="assets/PastedImage.jpg" Id="9f8780d1-07db-462a-bf1d-a02e4fd24db8" Panel.Bounds="118,380,175{5,2147483647},0*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Resize To="220,30" Target="71124e0a-0cfe-4533-a497-947826981741" />
+                        <Move To="150,10" Target="c266c55b-eedc-4f98-af19-82ca5b9dd81b" />
+                        <Move To="96,318" Target="71124e0a-0cfe-4533-a497-947826981741" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

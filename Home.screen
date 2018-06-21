@@ -1,0 +1,163 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                   xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                                   Id="f389b226-9d74-411e-8173-cae4ac2b5001">
+    <Page.Content>
+        <Content Width="412" Height="690" Id="969ca3b5-7a2f-4a82-87ff-df14a7a82466">
+            <Content.Layers>
+                <Layer Id="812ed4f0-7852-47cd-af01-b0bebe6a867f" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="1e9f583e-510b-4485-b9d6-0ea74a826186" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="412,690" Id="af285fd0-5f1f-4e09-b310-2b3cada46c90" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="737b3300-4574-425b-9470-b946ab2d2366" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="GenericPhone" Orientation="Portrait" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="10/21/2017 22:09:11" Id="596d9bd0-b9ea-4b11-9618-b57cea8328e9">
+            <Scene.KeyFrames>
+                <KeyFrame Id="2f629f47-f820-4dd7-902e-1c42006ea2b6">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="812ed4f0-7852-47cd-af01-b0bebe6a867f">
+                            <Add.Item>
+                                <Title RichText="&lt;Run Foreground=&quot;#FFFFFFFF&quot; &gt;Home&lt;/Run&gt;" FontFamily="Open Sans" Id="9235e557-5793-4a12-9939-99fe37267065" Panel.Bounds="155,15,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="812ed4f0-7852-47cd-af01-b0bebe6a867f">
+                            <Add.Item>
+                                <ScreenPartInstance TemplateReference="/Screenparts/Profile Button.screenpart" Id="107fab60-76dd-4331-a835-c7f6a08ea190" Panel.Bounds="350,10,0*,0*" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="812ed4f0-7852-47cd-af01-b0bebe6a867f">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="ccbbdfb2-4b70-451e-a66e-7503c471ce93" Panel.Bounds="109,253,0*,0*">
+                                    <Group.Children>
+                                        <i:Switch On="False" Id="fa861999-4533-4cee-b415-fb247646006c" Panel.Bounds="145,2,5*{5,2147483647},5*{5,2147483647}">
+                                            <i:Switch.TurnOn>
+                                                <CommandNavigate Screen="/Needs Help.screen" Created="11/15/2017 21:45:25" Id="7cbd8894-8a7e-40db-b641-93f54552c498">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Duration="0" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </i:Switch.TurnOn>
+                                        </i:Switch>
+                                        <i:Label RichText="Helping" Foreground="#FFE2E2E2" FontSize="25" FontFamily="Open Sans" Id="56cf997b-0ec8-43e7-a53c-4c39a8ca2e19" Panel.Bounds="0,0,111{5,2147483647},32{5,2147483647}" />
+                                        <Button Text="Rewards" CornerRadius="9" FontSize="25" FontFamily="Open Sans" Id="e08c0047-bba1-4ada-a542-8bdca61f2a67" Panel.Bounds="-28,128,252{5,2147483647},72{5,2147483647}">
+                                            <Button.Click>
+                                                <CommandNavigate Screen="/Redeem - Duplicate.screen" Created="10/25/2017 10:20:32" Id="f97d887e-365c-4d6f-8723-640139f39493">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Duration="0" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </Button.Click>
+                                        </Button>
+                                        <Button Text="Help Me!" CornerRadius="9" FontSize="25" FontFamily="Open Sans" Id="f1f00cb7-dacd-4e64-a393-1afa80050813" Panel.Bounds="-28,42,252{5,2147483647},72{5,2147483647}">
+                                            <Button.Click>
+                                                <CommandNavigate Screen="/GetHelp.screen" Created="11/03/2017 07:53:31" Id="ee0b23de-c84a-416f-8430-9e989325ee48">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Duration="0" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </Button.Click>
+                                        </Button>
+                                        <Button Text="Settings" CornerRadius="9" FontSize="25" FontFamily="Open Sans" Id="8e4f8694-ec00-4055-a680-93452e6fdc60" Panel.Bounds="-28,300,252{5,2147483647},72{5,2147483647}">
+                                            <Button.Click>
+                                                <CommandNavigate Screen="/Settings.screen" Created="10/25/2017 10:24:12" Id="444702ab-7b47-45bc-8f1d-dbac703ac477">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Duration="0" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </Button.Click>
+                                        </Button>
+                                        <Button Text="History" CornerRadius="9" FontSize="25" FontFamily="Open Sans" Id="e8b226c7-c554-4456-8e21-c522156bcb01" Panel.Bounds="-28,214,252{5,2147483647},72{5,2147483647}">
+                                            <Button.Click>
+                                                <CommandNavigate Screen="/History.screen" Created="11/03/2017 07:54:11" Id="09bdb19b-e74a-4e9f-92d8-3119375d139b">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Duration="0" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </Button.Click>
+                                        </Button>
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="812ed4f0-7852-47cd-af01-b0bebe6a867f">
+                            <Add.Item>
+                                <Icon CatalogId="fa-chevron-left" Id="b5fa428d-efea-4944-9ba9-3220c08c7836" Panel.Bounds="20,20,32{5,2147483647},32{5,2147483647}">
+                                    <Icon.Click>
+                                        <CommandSwitchTo SceneId="2ec29f18-997c-4e87-ab80-a2e9a43f0143" Created="10/25/2017 10:39:31" Id="63f5f09a-773e-423d-9362-d054d6491805" />
+                                    </Icon.Click>
+                                </Icon>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="812ed4f0-7852-47cd-af01-b0bebe6a867f">
+                            <Add.Item>
+                                <Image SourcePath="assets/Pacific_logo222(2).png" Id="186ccdfe-ca1b-4a5d-8a32-6dd6b43414e0" Panel.Bounds="115,59,184{5,2147483647},187{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Set Property="Content.Background" Value="#FF153153" Target="969ca3b5-7a2f-4a82-87ff-df14a7a82466" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped fa-chevron-left" StateGroup="596d9bd0-b9ea-4b11-9618-b57cea8328e9" ParentScene="596d9bd0-b9ea-4b11-9618-b57cea8328e9" Created="10/21/2017 22:42:11" Id="2ec29f18-997c-4e87-ab80-a2e9a43f0143">
+            <Scene.KeyFrames>
+                <KeyFrame Id="344a621f-2c84-4624-b017-e88a5611dfbd">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Before="584eede5-42c6-4ae9-a033-d43dde9cffd1" Target="812ed4f0-7852-47cd-af01-b0bebe6a867f">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="e2ec6f02-42d2-41f4-a39d-0c857a860527" Panel.Bounds="25,218,0*,0*">
+                                    <Group.Children>
+                                        <ScreenPartInstance TemplateReference="/Screenparts/Popup.screenpart" Id="b9496800-6ff9-401d-bc8f-c7956eac2fa7" Panel.Bounds="0,0,374*{5,2147483647},143{5,2147483647}">
+                                            <ScreenPartInstance.Customizations>
+                                                <Add Property="Control.Click" Target="21381f59-dfa5-4979-92e1-f31548d08747">
+                                                    <Add.Item>
+                                                        <CommandSwitchTo SceneId="596d9bd0-b9ea-4b11-9618-b57cea8328e9" Created="10/21/2017 22:44:24" Id="7dafb741-ba74-4df6-9b76-57ad9ef28330" />
+                                                    </Add.Item>
+                                                </Add>
+                                                <Resize To="370,144" Target="bf4d5062-768d-47d6-b9f6-09108e88c8b2" />
+                                                <Resize To="370,142" Target="61f1157c-2de6-4c4c-8f9e-6543824c29c5" />
+                                                <Move To="4,2" Target="bf4d5062-768d-47d6-b9f6-09108e88c8b2" />
+                                            </ScreenPartInstance.Customizations>
+                                        </ScreenPartInstance>
+                                        <Label RichText="Are you sure you would like&#xD;&#xA;to close the application?" FontSize="21" FontFamily="Open Sans" Id="584eede5-42c6-4ae9-a033-d43dde9cffd1" Panel.Bounds="26,21,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Button Text="Yes" FontFamily="Open Sans" Id="bf83f532-6029-4aaa-82d8-67a329b8410c" Panel.Bounds="196,92,138{5,2147483647},35{5,2147483647}">
+                                            <Button.Click>
+                                                <CommandNavigate Screen="/Screen.screen" Created="10/21/2017 22:47:12" Id="36097387-05c4-430f-817b-7aa052da848a">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Duration="0" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </Button.Click>
+                                        </Button>
+                                        <Button Text="No" FontFamily="Open Sans" Id="fc4ccde6-e271-40fb-a620-7de60455013e" Panel.Bounds="35,92,138{5,2147483647},35{5,2147483647}">
+                                            <Button.Click>
+                                                <CommandSwitchTo SceneId="596d9bd0-b9ea-4b11-9618-b57cea8328e9" Created="10/21/2017 22:46:34" Id="b7d6364c-32da-4588-a6fa-0083bdd515af" />
+                                            </Button.Click>
+                                        </Button>
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="e2ec6f02-42d2-41f4-a39d-0c857a860527" Target="812ed4f0-7852-47cd-af01-b0bebe6a867f">
+                            <Add.Item>
+                                <Button Text="Button" FontFamily="Open Sans" Opacity="0.4" Id="16698b0c-ff6b-486d-abda-50e20afb5832" Panel.Bounds="0,0,412{5,2147483647},690{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandSwitchTo SceneId="596d9bd0-b9ea-4b11-9618-b57cea8328e9" Created="10/21/2017 22:48:00" Id="1c7445a2-e582-46f0-90c5-74ea02e3c242" />
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

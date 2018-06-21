@@ -1,0 +1,171 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                   xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                                                   Id="d17903b0-02a1-4be0-92d3-13f82e81727a" d:Design.ShowOpeningAnimation="True">
+    <Page.Content>
+        <Content Width="412" Height="690" Id="43a20f68-9b53-4a34-a420-804244b70122">
+            <Content.Layers>
+                <Layer Id="0434840b-8227-4b94-83b6-d49d17279f2d" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="c7b6af48-1362-4536-b1f1-635070c220e3" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="412,690" Id="32bf74c7-7541-48eb-9d81-accff8c85495" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="b4095b2d-2e2b-49c9-a873-8cbf23e82c14" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="GenericPhone" Orientation="Portrait" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="11/02/2017 00:30:11" Id="94ad67ce-b3b2-4779-a938-f6689a949b23">
+            <Scene.KeyFrames>
+                <KeyFrame Duration="250" Id="4241123d-0765-4354-9fe8-972ee91121c0">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="0434840b-8227-4b94-83b6-d49d17279f2d">
+                            <Add.Item>
+                                <Label RichText="&lt;Run FontSize=&quot;16&quot; FontWeight=&quot;Bold&quot; &gt;Enter Desired Location&lt;/Run&gt;" Foreground="#FFFFFFFF" FontFamily="Open Sans" Id="aa41dd53-e8e4-4556-a194-709fa49aa19c" Panel.Bounds="111,289,189{5,2147483647},23{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="0434840b-8227-4b94-83b6-d49d17279f2d">
+                            <Add.Item>
+                                <Label RichText="&lt;Run FontWeight=&quot;Bold&quot; &gt;OR&lt;/Run&gt;" Foreground="#FFFFFFFF" FontFamily="Open Sans" Id="2bed69af-2baf-4398-8ff4-393427eff78e" Panel.Bounds="193,369,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="0434840b-8227-4b94-83b6-d49d17279f2d">
+                            <Add.Item>
+                                <Label RichText="&lt;Run FontSize=&quot;16&quot; FontWeight=&quot;Bold&quot; &gt;Choose From a List&lt;/Run&gt;" Foreground="#FFFFFFFF" FontFamily="Open Sans" Id="b1c5db57-28ce-441f-abd9-634ea22d7008" Panel.Bounds="117,398,189{5,2147483647},23{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="0434840b-8227-4b94-83b6-d49d17279f2d">
+                            <Add.Item>
+                                <ComboBox Opacity="1" Id="0417c89a-122e-4fb7-ab86-93108f377cad" Panel.Bounds="111,436,189{5,2147483647},28{5,2147483647}">
+                                    <ComboBox.Items>
+                                        <Item Text="Berglund Hall" IsSelected="True" Id="5c08af62-e6db-4a96-a854-c67868c3b739">
+                                            <Item.Selected>
+                                                <CommandSwitchTo SceneId="c4e18a38-84b6-4ef7-88b4-de2961843f43" AutoRevertEvent="Item.Unselected" Created="11/15/2017 02:44:50" Id="7a2e3ca2-0e27-4e7b-9893-b5710b9a66cf" />
+                                            </Item.Selected>
+                                        </Item>
+                                        <Item Text="Carnegie Hall" Id="4fa8d0ce-bc7e-4365-a866-a7dca088ec1a" />
+                                        <Item Text="Clark Hall" Id="f1ff64cd-e954-4506-af25-a6563b0873c5" />
+                                    </ComboBox.Items>
+                                </ComboBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="0434840b-8227-4b94-83b6-d49d17279f2d">
+                            <Add.Item>
+                                <ScreenPartInstance TemplateReference="/Screenparts/Back Button.screenpart" Id="33a136f3-7203-489c-97e6-dc46ad72c0fc" Panel.Bounds="20,20,5*{5,2147483647},5*{5,2147483647}">
+                                    <ScreenPartInstance.Customizations>
+                                        <Add Property="Control.Click" Target="6cadbdb1-318d-44e9-9497-3b1ca1fb5547">
+                                            <Add.Item>
+                                                <CommandNavigate Screen="/Home.screen" Created="11/03/2017 03:53:40" Id="556b4ece-af61-452e-b9fd-584530ef1f35">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Duration="0" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </Add.Item>
+                                        </Add>
+                                        <Remove Target="843073d9-2ef3-494c-8884-689a95578c07" />
+                                    </ScreenPartInstance.Customizations>
+                                    <ScreenPartInstance.Click>
+                                        <CommandNavigate Screen="/Home.screen" Created="11/02/2017 00:48:29" Id="13462568-b74e-41a1-9a2d-25523520efc5">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </ScreenPartInstance.Click>
+                                </ScreenPartInstance>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="33a136f3-7203-489c-97e6-dc46ad72c0fc" Target="0434840b-8227-4b94-83b6-d49d17279f2d">
+                            <Add.Item>
+                                <Title RichText="Get Help" Foreground="#FFFFFFFF" FontFamily="Open Sans" Opacity="1" Id="32d82775-8b8a-4359-a2df-799f9b3744a3" Panel.Bounds="136,15,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="0434840b-8227-4b94-83b6-d49d17279f2d">
+                            <Add.Item>
+                                <TextBox FontFamily="Open Sans" Id="3bfbf23f-c5f2-430e-a03d-8240de943e97" Panel.Bounds="117,330,189{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="0417c89a-122e-4fb7-ab86-93108f377cad" Target="0434840b-8227-4b94-83b6-d49d17279f2d">
+                            <Add.Item>
+                                <Button Text="HELP" Background="#FFC0D5EF" CornerRadius="9" BorderThickness="6" FontSize="25" FontFamily="Open Sans" FontStyle="Bold" Id="9049b6ad-888c-4967-a3d7-f3f2e57cc04d" Panel.Bounds="79,510,246{5,2147483647},93{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/Request Sent.screen" Created="11/15/2017 01:15:42" Id="5bd8f3e3-3798-4183-b6f6-0f5e8853297a">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="0434840b-8227-4b94-83b6-d49d17279f2d">
+                            <Add.Item>
+                                <Image SourcePath="assets/2126224_mktg_logo.png" Id="d6057a42-adb0-4601-952c-a94e59bda94e" Panel.Bounds="101,75,209{5,2147483647},181{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Set Property="Content.Background" Value="#FF153153" Target="43a20f68-9b53-4a34-a420-804244b70122" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+                <KeyFrame Duration="250" Id="4b006c8e-05ea-4eb8-b9d6-f44dd66f012f" />
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Selected Berglund Hall" ParentScene="94ad67ce-b3b2-4779-a938-f6689a949b23" Created="11/15/2017 02:44:50" Id="c4e18a38-84b6-4ef7-88b4-de2961843f43">
+            <Scene.KeyFrames>
+                <KeyFrame Id="c387bec1-b691-4030-9fb6-119381e1fc2b">
+                    <KeyFrame.Operations>
+                        <Add Property="Item.Selected" Target="5c08af62-e6db-4a96-a854-c67868c3b739">
+                            <Add.Item>
+                                <CommandSwitchTo SceneId="07b37d94-0749-465f-a4ef-76257b4adbc7" AutoRevertEvent="Item.Unselected" Created="11/15/2017 03:49:04" Id="5de64027-f39c-449c-8332-6bb1215fc54f" />
+                            </Add.Item>
+                        </Add>
+                        <Set Property="Control.Opacity" Value="1" Target="5c08af62-e6db-4a96-a854-c67868c3b739" />
+                        <Set Property="ItemBase.IsSelected" Value="False" Target="5c08af62-e6db-4a96-a854-c67868c3b739" />
+                        <Remove Target="7a2e3ca2-0e27-4e7b-9893-b5710b9a66cf" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Selected Berglund Hall" StateGroup="c4e18a38-84b6-4ef7-88b4-de2961843f43" ParentScene="c4e18a38-84b6-4ef7-88b4-de2961843f43" Created="11/15/2017 03:36:38" Id="07b37d94-0749-465f-a4ef-76257b4adbc7">
+            <Scene.KeyFrames>
+                <KeyFrame Id="80a2994b-8bb1-4a03-806f-bfe2078552c7">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="0434840b-8227-4b94-83b6-d49d17279f2d">
+                            <Add.Item>
+                                <ListBox Id="af1199ef-dbfc-4cf6-a80c-4753616f92af" Panel.Bounds="108,436,192{5,2147483647},73{5,2147483647}">
+                                    <ListBox.Items>
+                                        <Item Text="Room 101" Id="3bffb7cc-9b5b-4bfa-9cc4-06136f4c9608">
+                                            <Item.Click>
+                                                <CommandSwitchTo SceneId="0305d065-e1eb-49f5-a79f-8d4ec3578555" AutoRevertEvent="Control.Click" AutoRevertDuration="0" Created="11/15/2017 03:40:04" Id="84734779-2de8-4ccb-857f-fa3b79a677a1" />
+                                            </Item.Click>
+                                        </Item>
+                                        <Item Text="Room 102" Id="e92e286d-23f6-4a45-a062-56c8868386c5" />
+                                        <Item Text="Room 103" Id="55a07cab-316c-4c09-af30-1a6a0ad14b27" />
+                                        <Item Text="Room 104" Id="d684c95b-dad5-41d0-8b4f-b0f673a68dbd" />
+                                        <Item Text="Room 105" Id="ca59868b-71b1-4d96-9ab7-2e1a900fbf49" />
+                                        <Item Text="Room 106" Id="12b0e4cb-dee1-4c87-9ecd-2ca38d19cf6a" />
+                                    </ListBox.Items>
+                                </ListBox>
+                            </Add.Item>
+                        </Add>
+                        <Set Property="ComboBox.IsOpen" Value="False" Target="0417c89a-122e-4fb7-ab86-93108f377cad" />
+                        <Set Property="ItemBase.IsSelected" Value="True" Target="5c08af62-e6db-4a96-a854-c67868c3b739" />
+                        <Move To="79,531" Target="9049b6ad-888c-4967-a3d7-f3f2e57cc04d" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped Room 101" ParentScene="07b37d94-0749-465f-a4ef-76257b4adbc7" Created="11/15/2017 03:40:04" Id="0305d065-e1eb-49f5-a79f-8d4ec3578555">
+            <Scene.KeyFrames>
+                <KeyFrame Id="69886a12-b18f-43dd-8162-b0e96f4dbb74">
+                    <KeyFrame.Operations>
+                        <Resize To="159,28" Target="af1199ef-dbfc-4cf6-a80c-4753616f92af" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

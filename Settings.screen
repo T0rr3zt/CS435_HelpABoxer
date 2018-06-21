@@ -1,0 +1,211 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                   xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                                   Id="200cdfc5-f399-4700-a747-ad4ce43396fc">
+    <Page.Content>
+        <Content Width="412" Height="690" Id="21bebf3f-e468-41a2-8859-a5792a1beaa2">
+            <Content.Layers>
+                <Layer Id="0189c43c-6999-491e-b044-0b808b4f168f" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="7e71e774-1a5f-48d2-bc92-83924aa9c56c" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="412,690" Id="2ea654b3-4488-4898-a87b-8e52aed1e12e" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="83d1f0fe-f487-42f6-85bc-809a4f5cc940" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="GenericPhone" Orientation="Portrait" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="10/23/2017 21:58:35" Id="79231e99-b912-49cb-841e-72fd3378a85d">
+            <Scene.KeyFrames>
+                <KeyFrame Id="803f168f-e79e-41f2-bcfd-0427ffd4bc3d">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="0189c43c-6999-491e-b044-0b808b4f168f">
+                            <Add.Item>
+                                <Title RichText="&lt;Run Foreground=&quot;#FFFFFFFF&quot; &gt;Settings&lt;/Run&gt;" FontFamily="Open Sans" Id="c6eab055-b9a0-4c61-8f1d-9ad53ef732d1" Panel.Bounds="142,15,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="0189c43c-6999-491e-b044-0b808b4f168f">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="20dd3516-253f-4f91-ae71-26ddd4246172" Panel.Bounds="23,330,0*,0*">
+                                    <Group.Children>
+                                        <Label RichText="&lt;Run FontSize=&quot;21&quot; Foreground=&quot;#FFFFFFFF&quot; &gt;Display Theme:&lt;/Run&gt;" FontFamily="Open Sans" Id="80589ed9-883a-4572-957b-c4f2843f2d20" Panel.Bounds="0,0,5*{5,2147483647},5*{5,2147483647}" />
+                                        <OptionGroup Foreground="#FFFFFFFF" FontSize="16" Id="ecdc0d2f-f07b-40b4-998b-48efe760f56e" Panel.Bounds="216,3,5*{5,2147483647},5*{5,2147483647}">
+                                            <OptionGroup.Items>
+                                                <Option Text="Light" IsSelected="True" Id="b643fb26-4a2a-44e9-bf70-fd11aaad0e34">
+                                                    <Option.Selected>
+                                                        <CommandSwitchTo SceneId="79231e99-b912-49cb-841e-72fd3378a85d" AutoRevertEvent="Option.Unselected" Created="11/15/2017 02:21:15" Id="63fca107-3cc3-4667-bb39-4fba646a3d27" />
+                                                    </Option.Selected>
+                                                </Option>
+                                                <Option Text="Dark" Id="700113d4-8e91-4f7a-ad75-00faa66e54eb">
+                                                    <Option.Selected>
+                                                        <CommandSwitchTo SceneId="3a4fde03-3c18-4624-bff4-b877ec9fff9c" AutoRevertEvent="Option.Unselected" Created="11/15/2017 02:21:29" Id="79d17df9-7bf9-4781-a3c2-8345200d822a" />
+                                                    </Option.Selected>
+                                                </Option>
+                                            </OptionGroup.Items>
+                                        </OptionGroup>
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="0189c43c-6999-491e-b044-0b808b4f168f">
+                            <Add.Item>
+                                <ScreenPartInstance TemplateReference="/Screenparts/Back Button.screenpart" Id="2e769c2f-2925-4423-adb1-9490cae92215" Panel.Bounds="20,20,5*{5,2147483647},5*{5,2147483647}">
+                                    <ScreenPartInstance.Click>
+                                        <CommandNavigate Screen="/Profile.screen" Created="11/29/2017 22:05:01" Id="238ede99-393a-4be6-8548-fca61b0ed407">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </ScreenPartInstance.Click>
+                                </ScreenPartInstance>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="0189c43c-6999-491e-b044-0b808b4f168f">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="31120dee-4253-478e-801d-5b053b5358ce" Panel.Bounds="23,235,0*,0*">
+                                    <Group.Children>
+                                        <Label RichText="&lt;Run FontSize=&quot;21&quot; Foreground=&quot;#FFE2E2E2&quot; &gt;Notification Radius: &lt;/Run&gt;" Foreground="#FFFFFFFF" FontFamily="Open Sans" Id="8066914b-759c-4b61-8df1-69eedd2288ee" Panel.Bounds="0,0,5*{5,2147483647},5*{5,2147483647}" />
+                                        <ComboBox Id="7ab65557-686b-45c7-af74-f43cd43147f3" Panel.Bounds="216,1,150{5,2147483647},28{5,2147483647}">
+                                            <ComboBox.Items>
+                                                <Item Text="100 ft" IsSelected="True" Id="99bce2d2-8c2b-47d6-9d58-8a4355f2d384" />
+                                                <Item Text="1000 ft" Id="111abead-b35f-477e-9c58-55130a9a7c06" />
+                                                <Item Text="All of Campus" Id="f66bcbca-b916-4b40-9c14-85d242f7571f" />
+                                            </ComboBox.Items>
+                                        </ComboBox>
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="0189c43c-6999-491e-b044-0b808b4f168f">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="076f7391-4d0b-4690-907d-a5a40ebce9ce" Panel.Bounds="23,167,0*,0*">
+                                    <Group.Children>
+                                        <Label RichText="&lt;Run FontSize=&quot;21&quot; Foreground=&quot;#FFE2E2E2&quot; &gt;Notification Sound: &lt;/Run&gt;" FontFamily="Open Sans" Id="6c4e4fda-954a-4785-980d-3f0a5f1500b2" Panel.Bounds="0,0,5*{5,2147483647},5*{5,2147483647}" />
+                                        <Button Text="Change Tone" CornerRadius="9" FontFamily="Open Sans" Id="789ac9d6-497d-45c2-938d-ce5723c9f011" Panel.Bounds="216,0,150{5,2147483647},35{5,2147483647}" />
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="0189c43c-6999-491e-b044-0b808b4f168f">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="159e940e-945b-436e-8aaa-602fb2aa2199" Panel.Bounds="23,102,0*,0*">
+                                    <Group.Children>
+                                        <Label RichText="&lt;Run FontSize=&quot;21&quot; Foreground=&quot;#FFE2E2E2&quot; &gt;Notifications: &lt;/Run&gt;" Foreground="#FFFFFFFF" FontFamily="Open Sans" Id="9761688a-4e22-4751-9199-2b57b17da1c0" Panel.Bounds="0,3,5*{5,2147483647},5*{5,2147483647}" />
+                                        <i:Switch Id="77181e2f-2687-46e0-ba5a-bbcbb23561d4" Panel.Bounds="216,0,5*{5,2147483647},5*{5,2147483647}">
+                                            <i:Switch.TurnOff>
+                                                <CommandSwitchTo SceneId="52f4e2f1-db6b-40ab-bddf-11751331438c" AutoRevertEvent="i:Switch.TurnOn" Created="11/02/2017 00:00:05" Id="60c005c2-7186-40c9-a842-be66c134676c" />
+                                            </i:Switch.TurnOff>
+                                        </i:Switch>
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="cf603104-c4b4-41a6-bf03-4af7be9aa605" Target="0189c43c-6999-491e-b044-0b808b4f168f">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="81f6b6e7-77f6-4fda-8fa5-9f22662647a9" Panel.Bounds="22,389,0*,0*">
+                                    <Group.Children>
+                                        <Label RichText="&lt;Run FontSize=&quot;21&quot; Foreground=&quot;#FFE2E2E2&quot; &gt;Font:&lt;/Run&gt;" FontFamily="Open Sans" Id="88060613-349b-494a-89dc-702d43463f81" Panel.Bounds="0,0,5*{5,2147483647},5*{5,2147483647}" />
+                                        <ComboBox Id="cf603104-c4b4-41a6-bf03-4af7be9aa605" Panel.Bounds="217,1,150{5,2147483647},28{5,2147483647}">
+                                            <ComboBox.Items>
+                                                <Item Text="Courier" IsSelected="True" Id="407068c6-4284-4f72-9bd1-fad43f841ad4" />
+                                                <Item Text="Arial" Id="c198fbb0-5158-4628-8c4e-d7684f6be436" />
+                                                <Item Text="Helvetica" Id="55275a73-6124-4d7a-9657-3b3e0d26005e" />
+                                            </ComboBox.Items>
+                                        </ComboBox>
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="0189c43c-6999-491e-b044-0b808b4f168f">
+                            <Add.Item>
+                                <Label RichText="Maximum distance away to recieve help requests" Foreground="#FFFFFFFF" FontFamily="Open Sans" Id="43718c1a-88bd-4071-837e-1d46b5bc2082" Panel.Bounds="43,274,150{5,2147483647},18*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="0189c43c-6999-491e-b044-0b808b4f168f">
+                            <Add.Item>
+                                <Button Text="Save" CornerRadius="8" FontSize="24" FontFamily="Open Sans" Id="2a40fe78-327b-4086-b83c-f227372d5bab" Panel.Bounds="144,579,123{5,2147483647},53{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/Profile.screen" Created="11/29/2017 22:04:43" Id="c57de067-6d90-487d-a531-d291b02a11b3">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                        <Set Property="Content.Background" Value="#FF153153" Target="21bebf3f-e468-41a2-8859-a5792a1beaa2" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Disconnected State" StateGroup="79231e99-b912-49cb-841e-72fd3378a85d" ParentScene="79231e99-b912-49cb-841e-72fd3378a85d" Created="11/01/2017 23:45:58" Id="dc296f95-a344-4b36-b712-2738f2482ddc">
+            <Scene.KeyFrames>
+                <KeyFrame Id="2e6058b4-a9cf-4a54-adec-2bf88eaf71c0">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="0189c43c-6999-491e-b044-0b808b4f168f">
+                            <Add.Item>
+                                <ScreenPartInstance TemplateReference="/Screenparts/Popup.screenpart" Id="04613446-3846-4cc3-8987-aa5fdbb2362f" Panel.Bounds="19,214,5*{5,2147483647},5*{5,2147483647}">
+                                    <ScreenPartInstance.Customizations>
+                                        <Add Property="Panel.Children" Target="d1090e0f-19e6-496b-a775-a23a416cc183">
+                                            <Add.Item>
+                                                <Label RichText="This will open the system's change &#xD;&#xA;notification sound dialogue" FontFamily="Open Sans" Id="01e8039b-6a7d-4054-8d5e-ded054fc3240" Panel.Bounds="83,148,5*{5,2147483647},5*{5,2147483647}" />
+                                            </Add.Item>
+                                        </Add>
+                                        <Add Property="Control.Click" Target="21381f59-dfa5-4979-92e1-f31548d08747">
+                                            <Add.Item>
+                                                <CommandSwitchTo SceneId="79231e99-b912-49cb-841e-72fd3378a85d" Created="11/01/2017 23:51:34" Id="8182b30a-4ec9-4406-9351-44a8192d4b81" />
+                                            </Add.Item>
+                                        </Add>
+                                    </ScreenPartInstance.Customizations>
+                                </ScreenPartInstance>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="04613446-3846-4cc3-8987-aa5fdbb2362f" Target="0189c43c-6999-491e-b044-0b808b4f168f">
+                            <Add.Item>
+                                <Button Text="Button" FontFamily="Open Sans" Opacity="0.4" Id="f9b9813d-8841-4b2b-9351-19f6cc6e7d41" Panel.Bounds="0,0,412{5,2147483647},690{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Turned off Switch" ParentScene="79231e99-b912-49cb-841e-72fd3378a85d" Created="11/02/2017 00:00:05" Id="52f4e2f1-db6b-40ab-bddf-11751331438c">
+            <Scene.KeyFrames>
+                <KeyFrame Id="a2170017-feb9-426f-8748-7be0af9b84f6">
+                    <KeyFrame.Operations>
+                        <Set Property="Control.Opacity" Value="0.4" Target="076f7391-4d0b-4690-907d-a5a40ebce9ce" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Selected Dark" ParentScene="79231e99-b912-49cb-841e-72fd3378a85d" Created="11/15/2017 02:21:29" Id="3a4fde03-3c18-4624-bff4-b877ec9fff9c">
+            <Scene.KeyFrames>
+                <KeyFrame Id="069f78f1-85ec-48b5-baaa-54785beea7d9">
+                    <KeyFrame.Operations>
+                        <Set Property="Text.Foreground" Value="#FFFFFFFF" Target="80589ed9-883a-4572-957b-c4f2843f2d20" />
+                        <Set Property="Text.Foreground" Value="#FFFFFFFF" Target="88060613-349b-494a-89dc-702d43463f81" />
+                        <Set Property="Text.Foreground" Value="#FFFFFFFF" Target="8066914b-759c-4b61-8df1-69eedd2288ee" />
+                        <Set Property="Text.Foreground" Value="#FFFFFFFF" Target="6c4e4fda-954a-4785-980d-3f0a5f1500b2" />
+                        <Set Property="Text.Foreground" Value="#FFFFFFFF" Target="9761688a-4e22-4751-9199-2b57b17da1c0" />
+                        <Set Property="Label.RichText" Value="&lt;Run Foreground=&quot;#FFFFFFFF&quot; &gt;Settings&lt;/Run&gt;" Target="c6eab055-b9a0-4c61-8f1d-9ad53ef732d1" />
+                        <Set Property="Icon.Color" Value="#FFFFFFFF" Target="2e769c2f-2925-4423-adb1-9490cae92215.6cadbdb1-318d-44e9-9497-3b1ca1fb5547" />
+                        <Set Property="Button.Background" Value="#FFAAAAAA" Target="789ac9d6-497d-45c2-938d-ce5723c9f011" />
+                        <Set Property="Text.Foreground" Value="#FFFFFFFF" Target="789ac9d6-497d-45c2-938d-ce5723c9f011" />
+                        <Set Property="ComboBox.Background" Value="#FFAAAAAA" Target="7ab65557-686b-45c7-af74-f43cd43147f3" />
+                        <Set Property="TextItemsControl&lt;Item,ItemEventArgs&gt;.Foreground" Value="#FFFFFFFF" Target="7ab65557-686b-45c7-af74-f43cd43147f3" />
+                        <Set Property="TextItemsControl&lt;Option,OptionEventArgs&gt;.Foreground" Value="#FFFFFFFF" Target="ecdc0d2f-f07b-40b4-998b-48efe760f56e" />
+                        <Set Property="Content.Background" Value="#FF555555" Target="21bebf3f-e468-41a2-8859-a5792a1beaa2" />
+                        <Set Property="ComboBox.Background" Value="#FFAAAAAA" Target="cf603104-c4b4-41a6-bf03-4af7be9aa605" />
+                        <Set Property="TextItemsControl&lt;Item,ItemEventArgs&gt;.Foreground" Value="#FFFFFFFF" Target="cf603104-c4b4-41a6-bf03-4af7be9aa605" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>
